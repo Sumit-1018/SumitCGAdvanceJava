@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean class="in.cg.beans.Student" id="StdId">
+    <property name="id" value="101"/>
+    <property name="name" value="Sumit"/>
+    <property name="email" value="random@email.com"/>
+    </bean>
+    
+    <bean class="in.cg.beans.Student" id="StdId2">
+    <property name="id" value="102"/>
+    <property name="name" value="Sum"/>
+    <property name="email" value="random2@email.com"/>
+    </bean>
+
+</beans>
