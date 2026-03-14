@@ -1,0 +1,7 @@
+server:
+  port: 6004
+spring:
+  application:
+    name: passenger-service
+  config:
+    import: optional:configserver:http://localhost:6001
